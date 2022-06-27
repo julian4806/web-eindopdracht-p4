@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.part1 {
+  width: 100%;
+  height: 700px;
+  background-image: url("/assets/img/bg2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.part1 img {
+  position: relative;
+}
+
+.part1 h2 {
+  position: absolute;
+  margin-top: -330px;
+  margin-left: 475px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.prices {
+  display: flex;
+  margin-left: 100px;
+  margin-top: -100px;
+  position: absolute;
+}
+
+.price {
+  width: 275px;
+  height: 290px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.yellowbar {
+  height: 30px;
+  width: 100%;
+  background-color: yellow;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -20px;
+  margin-top: 15px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.left {
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.part2 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  margin-top: 50px;
+}
+
+.links2 {
+  width: 400px;
+  margin-left: 100px;
+}
+
+.rechts2 {
+  margin-left: 50px;
+}
+
+.rechts2 img {
+  margin-top: 20px;
+}
+
+.rechts2 p {
+  margin-top: 20px;
+}
+
+.rechts2 button {
+  margin-top: 120px;
+  height: 50px;
+  width: 170px;
+  background-color: yellow;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}

@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat ";
+}
+
+#container {
+  margin: 0 auto;
+  width: 1280px;
+  height: 2000px;
+  background-image: url(../img/placeyourImage.png);
+  background-repeat: no-repeat;
+}
+
+.newYork img {
+  margin-top: 100px;
+  margin-left: 700px;
+  width: 403px;
+  z-index: 2;
+}
+button {
+  position: absolute;
+  background-color: #f5dd3a;
+  margin-top: -55px;
+  margin-left: 860px;
+  z-index: 3;
+  border: none;
+  border-radius: 6%;
+  width: 139px;
+  height: 34px;
+  cursor: pointer;
+}
+
+.flights img {
+  position: absolute;
+  margin-left: 720px;
+  margin-top: 0px;
+  width: 36px;
+  aspect-ratio: 1/1;
+  z-index: 3;
+}
+
+.hotels img {
+  position: absolute;
+  margin-left: 790px;
+  margin-top: 0px;
+  width: 36px;
+  aspect-ratio: 1/1;
+  z-index: 87;
+}
+
+.transport img {
+  position: absolute;
+  margin-left: 860px;
+  margin-top: 0px;
+  width: 36px;
+  aspect-ratio: 1/1;
+  z-index: 87;
+}
+
+.info h2 {
+  margin-left: 720px;
+  margin-top: -290px;
+
+  z-index: 87;
+}
+.info h3 {
+  margin-left: 720px;
+  margin-top: -20px;
+  z-index: 87;
+}
+#flight h4 {
+  margin-left: 720px;
+  margin-top: 40px;
+  z-index: 87;
+}
+#hotel h4 {
+  margin-left: 790px;
+  margin-top: -40px;
+  z-index: 87;
+}
+#transportation h4 {
+  margin-left: 850px;
+  margin-top: -40px;
+  z-index: 87;
+}
+.info p {
+  margin-left: 720px;
+  z-index: 87;
+}
+.infoimg {
+  display: flex;
+}
+
+.info h1 {
+  margin-left: 720px;
+  z-index: 87;
+}

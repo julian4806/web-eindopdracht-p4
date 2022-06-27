@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./assets/css/style.css'>
+    <script src='./assets/js/script.js' defer></script>
+    <title>Web eindopdracht</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <nav class="navbar">
+                <!-- Logo -->
+                <div class="logo">Julian van Husen</div>
+                <!-- Nav menu -->
+                <ul class="nav-links">
+                    <!-- Toggle menu -->
+                    <input type="checkbox" id="checkbox_toggle" />
+                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+                    <!-- Menu items -->
+                    <div class="menu">
+                        <li><a class="menu-items" href="#aboutMe">Wat heb ik geleerd?</a></li>
+                        <li><a class="menu-items" href="#opdrachten">Opdrachten</a></li>
+                        <li><a class="menu-items" href="#contact">Contact</a></li>
+                        <li><a class="menu-items" href="#">Footer</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Paragraphs -->
+        <div class="aboutMe" id="aboutMe">
+            <section>
+                <h2>WAT HEB IK GELEERD DEZE PERIODE?</h2><br>
+                <p>tekst over wat ik <b>deze periode</b> heb geleerd tijdens WEB en CMS <br>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, nulla odio doloremque
+                    consequatur obcaecati vel neque sit ducimus quaerat repellat quod ullam magnam commodi repudiandae
+                    quos laborum dolorum, iure voluptatibus?
+                </p><br>
+                <h2>WAT HEB IK GELEERD DIT SCHOOLJAAR</h2><br>
+                <p>tekst over wat ik <b>dit jaar</b> heb geleerd tijdens WEB en CMS <br>Lorem ipsum dolor sit, amet
+                    consectetur adipisicing elit. Natus quasi distinctio dignissimos,
+                    maiores molestias repudiandae. Dolorum, illo. Pariatur quos distinctio laboriosam culpa, nostrum
+                    dolorem excepturi? Blanditiis, eius dolores? Voluptas, porro!
+                </p>
+                <!-- Profile picture -->
+            </section>
+            <img src="./assets/img/profile.png" alt="">
+        </div>
+        <h2 id="opdrachten">Opdrachten van periode 4</h2>
+        <main>
+            <figure>
+                <a href="src/opdracht_1/index.html" target="_blank">
+                    <img src="./assets/img/pencil.png" alt="" />
+                    <figcaption>
+                        <h2>Opdracht 1</h2>
+                        <span>Hamburger menu</span>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="src/opdracht_2/index.html" target="_blank">
+                    <img src="./assets/img/pencil.png" alt="" />
+                    <figcaption>
+                        <h2>Opdracht 2</h2>
+                        <span>Responsive VS Adaptive</span>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="src/opdracht_3/index.html" target="_blank">
+                    <img src="./assets/img/pencil.png" alt="" />
+                    <figcaption>
+                        <h2>Opdracht 3</h2>
+                        <span>Responsive Kolommen</span>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure>
+                <a href="src/opdracht_4/eindproduct/index.html" target="_blank">
+                    <img src="./assets/img/pencil.png" alt="" />
+                    <figcaption>
+                        <h2>Opdracht 4</h2>
+                        <span>PSD naar HTML/CSS</span>
+                    </figcaption>
+                </a>
+            </figure>
+        </main>
+        <div class="contact-form" id="contact">
+            <h3>Contact</h3>
+            <form action="contactform.php">
+                <div class="contact">
+                    <input type="text" name="name" placeholder="Naam">
+                    <input type="text" name="mail" placeholder="E-mailadres">
+                    <input type="text" name="subject" placeholder="Onderwerp">
+                </div>
+                <textarea cols="30" rows="10" name="message" placeholder="Bericht"></textarea>
+                <button type="submit" value="Verstuur" class="send-button">Stuur bericht</button>
+            </form>
+        </div>
+        <footer>
+            Copyright &copy;
+            <script>
+                document.write(new Date().getFullYear());
+            </script>
+            All rights reserved | Julian van Husen
+        </footer>
+    </div>
+</body>
+
+</html>

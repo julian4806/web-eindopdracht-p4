@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma;
+}
+
+#hamburger {
+  margin: 10px;
+  display: none;
+}
+
+#menu {
+  list-style-type: none;
+  width: 100%;
+  background-color: blue;
+}
+
+#menu li {
+  float: left;
+  width: 25%;
+  height: 20px;
+  background: red;
+  text-decoration: none;
+  background-color: rgb(116, 121, 226);
+}
+#menu li:hover {
+  background-color: #ccc;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+#menu li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.verborgen {
+  display: inline-block;
+}
+@media screen and (max-width: 680px) {
+  #hamburger {
+    display: block;
+    background-image: url(/src/opdracht_1/assets/img/hamburger.png);
+    width: 10vw;
+    height: 10vw;
+    background-size: cover;
+    border: none;
+  }
+
+  #hamburger:active {
+    animation: mymove 0.1s 1;
+  }
+  @keyframes mymove {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    100% {
+      -webkit-transform: rotate(20deg);
+    }
+  }
+
+  #menu {
+    position: absolute;
+  }
+
+  #menu li {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .verborgen {
+    display: none;
+  }
+}

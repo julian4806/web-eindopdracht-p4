@@ -1,0 +1,188 @@
+/* hoogte review is 475px 
+breete is 1280px */
+/* tekst review = 225px from side  */
+
+/* picture of contact hoogte is 415px */
+/* rest of page is 445px hoog  */
+/* this is the styling for the review page */
+.container-review {
+  margin: auto;
+  width: 1280px;
+}
+
+.review {
+  margin: auto;
+  background-color: rgb(31, 31, 31);
+  position: absolute;
+  width: 1280px;
+  height: 475px;
+  z-index: -1;
+}
+.Layer_11 {
+  background-image: url("Layer 11.png");
+  opacity: 0.102;
+  position: absolute;
+
+  width: 1280px;
+  height: 518px;
+  z-index: -2;
+}
+
+.reviewheader {
+  font-family: "Montserrat";
+}
+h1 {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  margin-top: -400.5px;
+  transform: translate(-50%);
+  margin-left: 640px;
+  text-align: center;
+}
+
+/* Textbox header */
+.smalltxt {
+  position: absolute;
+  margin-top: -300px;
+  transform: translate(-50%);
+  max-width: 900px;
+  margin-left: 640px;
+  text-align: center;
+  color: white;
+}
+
+/* Stars */
+.reviewstar {
+  position: absolute;
+  margin-top: -230px;
+  transform: translate(-50%);
+
+  margin-left: 640px;
+}
+
+/* Person */
+.usericon {
+  position: absolute;
+  margin-top: -199.5px;
+  margin-left: 570px;
+}
+
+/* John Smith */
+.userinfo1 {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  margin-top: -215px;
+  margin-left: 630px;
+  text-align: center;
+}
+
+/* Solo Traveler */
+.userinfo2 {
+  color: white;
+  z-index: 1;
+  position: absolute;
+  margin-top: -170px;
+  margin-left: 630px;
+  text-align: center;
+}
+
+/* styling for contact */
+.container-contact {
+  margin: auto;
+  width: 1280px;
+  height: 712px;
+  margin-top: -3px;
+}
+
+.container-contact p {
+  position: absolute;
+  margin-top: -260px;
+  text-align: center;
+  font-size: 39.50666666666666px;
+  color: white;
+  font-family: system-ui, sans-serif;
+  margin-left: 640px;
+  transform: translate(-50%);
+}
+
+.location-marker {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: -600px;
+  transform: translate(-75%);
+}
+
+/* Socials START */
+.phone-icon {
+  position: absolute;
+  margin-top: 110.5px;
+  transform: translate(-50%);
+  margin-left: 540px;
+}
+.callus {
+  position: absolute;
+  margin-top: 100.5px;
+  transform: translate(-50%);
+  margin-left: 621.6px;
+}
+.topinfocontact {
+  margin-bottom: 0%;
+  margin-top: 0%;
+}
+
+.email-icon {
+  position: absolute;
+  margin-top: 110.5px;
+  transform: translate(-50%);
+  margin-left: 260px;
+}
+.email_us {
+  position: absolute;
+  margin-top: 100.5px;
+  transform: translate(-50%);
+  margin-left: 365.6px;
+}
+.adress-icon {
+  position: absolute;
+  margin-top: 110.5px;
+  transform: translate(-50%);
+  margin-left: 770px;
+}
+.find_us {
+  position: absolute;
+  margin-top: 100.5px;
+  transform: translate(-50%);
+  margin-left: 890.4px;
+}
+.socials {
+  position: absolute;
+  margin-top: 200px;
+  transform: translate(-50%);
+  margin-left: 660px;
+}
+.socials-icon {
+  width: 650px;
+  height: auto;
+}
+/* Socials START */
+
+/* footer */
+/* 340px */
+.footer {
+  width: 1280px;
+  height: 200px;
+  position: absolute;
+  transform: translate(-50%);
+  margin-left: 660px;
+  margin-top: 360px;
+  background-color: #f2da10;
+}
+
+.copyright {
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 660px;
+  transform: translate(-50%);
+}
